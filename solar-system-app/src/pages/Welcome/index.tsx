@@ -10,15 +10,11 @@ const Welcome: React.FC = () => {
     <View style={styles.container}>
       <Assets.images.BackgroundApp style={styles.background}/>
 
-
       <Text style={[styles.welcome, Fonts.paragraph()]}>Velkommen</Text>
       <Text style={[styles.title, Fonts.homeTitle()]}>La oss utforske verdensrommet</Text>
 
-
-
       <Text style={[styles.title, Fonts.paragraph(), styles.bottomMargin]}>Trykk på knappen for å fortsette</Text>
       <Button title="Fortsett" Icon={Assets.icons.Forward}/>
-
 
     </View>
   )
