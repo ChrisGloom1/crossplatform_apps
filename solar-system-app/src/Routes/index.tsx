@@ -1,16 +1,8 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs"
 import React from "react"
-import { View, Text } from "react-native"
+import HomePage from "../pages/HomePage"
 
 const Tab = createBottomTabNavigator()
-
-const HomePage: React.FC = () => {
-  return(
-    <View>
-      <Text>Homepage comp</Text>
-    </View>
-  )
-}
 
 const HomeRoutes: React.FC = () => {
   return <Tab.Navigator initialRouteName="Start">
