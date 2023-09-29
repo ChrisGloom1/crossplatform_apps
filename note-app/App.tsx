@@ -1,6 +1,6 @@
 import { StyleSheet, View, TouchableOpacity, Button, Text } from 'react-native';
 import React from 'react';
-import TaskList from './components/TaskList';
+import TaskList from './components/TaskList/TaskList';
 
 const addTask = () => {
   
@@ -10,7 +10,7 @@ const addTask = () => {
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Notater</Text>
+      <Text style={styles.title}>Bare gjør, brusj!</Text>
       <TaskList />
     </View>
   )
@@ -22,10 +22,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    padding: 20
+    justifyContent: 'center',
+    alignSelf: "center",
+    padding: 20,
+    width: "95%"
   },
   title: {
-    fontSize: 30,
+    fontSize: 24,
     fontWeight: "bold",
     marginBottom: 20
   },
