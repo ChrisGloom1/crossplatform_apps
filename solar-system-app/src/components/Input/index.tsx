@@ -27,7 +27,9 @@ const Input: React.FC<InputProps> = ({ onTextChange }) => {
 const styles = StyleSheet.create({
   container: {
     width: "95%",
-    backgroundColor: Colors.brandBackground
+    backgroundColor: Colors.brandBackground,
+    height: 50,
+    borderRadius: 25
   },
   input: {
     flex: 1,
