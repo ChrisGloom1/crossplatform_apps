@@ -1,0 +1,68 @@
+{
+  "Ingredients": {
+    "Liquor": [
+      "Vodka",
+      "Gin",
+      "Rum",
+      "Tequila",
+      "Whiskey",
+      "Bourbon",
+      "Single Malt Scotch",
+      "Irish Whiskey",
+      "Brandy",
+      "Cognac",
+      "Pisco"
+    ],
+    "Liqueur": [
+      "Triple Sec",
+      "Cointreau",
+      "Grand Marnier",
+      "Kahlua",
+      "Bailey's Irish Cream",
+      "Amaretto",
+      "Frangelico",
+      "Chambord"
+    ],
+    "Citrus": [
+      "Lemon",
+      "Lime",
+      "Orange",
+      "Grapefruit"
+    ],
+    "Sweetener": [
+      "Simple Syrup",
+      "Agave Nectar",
+      "Honey",
+      "Sugar",
+      "Maple Syrup"
+    ],
+    "Egg white": "Egg white",
+    "Bitters": [
+      "Angostura Bitters",
+      "Peychaud's Bitters",
+      "Orange Bitters"
+    ]
+  },
+  "Sours" : [{
+    "Whiskey Sour" : {
+      "Ingredients" : {
+        "Liquor" : "Whiskey",
+        "Citrus" : "Lemon",
+        "Sweetener" : "Simple Syrup",
+        "Egg white" : "Egg white",
+        "Bitters" : ["Angostura Bitters", "Peychaud's Bitters"]
+      },
+      "Instructions" : "First dry shake, then shake with ice and double strain into a rocks glass filled with ice. Garnish with a cherry and an orange twist."
+    },
+    "Pisco Sour" : {
+      "Ingredients" : {
+        "Liquor" : "Pisco",
+        "Citrus" : "Lemon",
+        "Sweetener" : "Simple Syrup",
+        "Egg white" : "Egg white",
+        "Bitters" : "Peychaud's Bitters"
+      },
+      "Instructions" :"Shake with ice and strain into a rocks glass filled with ice. Garnish with a cherry and an orange twist."
+    }
+  }]
+}
